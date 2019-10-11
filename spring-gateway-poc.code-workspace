@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "eureka-service"
+		},
+		{
+			"path": "customer-service"
+		},
+		{
+			"path": "edge-service"
+		}
+	],
+	"settings": {}
+}
