@@ -1,0 +1,22 @@
+server: 
+    port: 8081
+spring: 
+    application:   
+        name: edge-service
+    cloud: 
+        gateway: 
+            discovery: 
+                locator: 
+                    enabled: true
+                    lower-case-service-id: true
+            routes:
+            - id : customers-find-all
+              uri: lb://customer-service/customers
+              predicates:
+                - Path= /customers
+            - id: rewritepath-route-1
+              uri: lb://customer-service/customers
+              predicates:
+                - Path=/rewritepath/**
+              filters:
+                - RewritePath=/rewritepath/(?<customerName>/?.*), /customers/$\{customerName}
