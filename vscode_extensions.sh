@@ -1,4 +1,5 @@
 code --install-extension GabrielBB.vscode-lombok
+code --install-extension humao.rest-client
 code --install-extension naco-siren.gradle-language
 code --install-extension Pivotal.vscode-spring-boot
 code --install-extension redhat.java

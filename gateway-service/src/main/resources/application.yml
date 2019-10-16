@@ -13,7 +13,15 @@ spring:
                     enabled: true
                     lower-case-service-id: true
             routes:
-            - id : customers-find-all
-              uri: lb://customer-service/customers
+            - id : consumers-find-all
+              uri: lb://consumer-service/consumers
               predicates:
-                - Path= /customers
+                - Path= /consumers
+              filters:
+              - AddRequestHeader=X-Request-Test, Header-From-Gateway  
+            - id: consumers-strip-prefix
+              uri: lb://consumer-service
+              predicates:
+              - Path=/consumers/test/delay
+              filters:
+              - StripPrefix=2

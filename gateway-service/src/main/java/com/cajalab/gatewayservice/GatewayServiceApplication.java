@@ -26,9 +26,9 @@ public class GatewayServiceApplication {
 	// public RouteLocator routeLocator(RouteLocatorBuilder builder) {
 	// 	//@formatter:off
 	// 	return builder.routes()
-	// 			// load balance customers
-	// 			.route("customers-find-all", r -> r.path("/customers")
-	// 				.uri("lb://customer-service/customers"))				
+	// 			// load balance consumers
+	// 			.route("consumers-find-all", r -> r.path("/consumers")
+	// 				.uri("lb://consumers-service/consumers"))				
 	// 			.build();
 	// 	//@formatter:on
 	// }

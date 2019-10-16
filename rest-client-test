@@ -1,0 +1,11 @@
+//select line and ctrl+alt+r to send requests
+
+http://localhost:8081/
+
+http://localhost:8080/consumers
+
+http://localhost:8081/consumers
+
+http://localhost:8080/delay
+
+http://localhost:8081/consumers/test/delay

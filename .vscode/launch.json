@@ -2,7 +2,7 @@
     "configurations": [       
         {
             "type": "java",
-            "name": "Spring Boot-ServiceDiscoveryApplication<service-discovery>",
+            "name": "ServiceDiscoveryApplication<service-discovery>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
@@ -12,7 +12,7 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-GatewayServiceApplication<gateway-service>",
+            "name": "GatewayServiceApplication<gateway-service>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
@@ -22,7 +22,7 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-ConsumerServiceApplication<consumer-service>",
+            "name": "ConsumerServiceApplication<consumer-service>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
