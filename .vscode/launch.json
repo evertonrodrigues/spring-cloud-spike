@@ -1,0 +1,34 @@
+{
+    "configurations": [       
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiceDiscoveryApplication<service-discovery>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cajalab.servicediscovery.ServiceDiscoveryApplication",
+            "projectName": "service-discovery",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayServiceApplication<gateway-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cajalab.gatewayservice.GatewayServiceApplication",
+            "projectName": "gateway-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConsumerServiceApplication<consumer-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cajalab.consumerservice.ConsumerServiceApplication",
+            "projectName": "consumer-service",
+            "args": ""
+        }
+    ]
+}
