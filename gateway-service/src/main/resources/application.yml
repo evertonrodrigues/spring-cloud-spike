@@ -1,0 +1,19 @@
+server: 
+    port: 8081
+local:
+  server:
+    port: 8081
+spring: 
+    application:   
+        name: gateway-service
+    cloud: 
+        gateway: 
+            discovery: 
+                locator: 
+                    enabled: true
+                    lower-case-service-id: true
+            routes:
+            - id : customers-find-all
+              uri: lb://customer-service/customers
+              predicates:
+                - Path= /customers

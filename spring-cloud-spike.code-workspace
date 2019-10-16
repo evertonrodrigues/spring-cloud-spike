@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "service-discovery"
+		},
+		{
+			"path": "consumer-service"
+		},
+		{
+			"path": "gateway-service"
+		}
+	],
+	"settings": {}
+}
