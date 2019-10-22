@@ -27,7 +27,7 @@ public class GatewayServiceApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		webClient.get().uri("/customers").exchange().expectStatus().isOk();
+		webClient.get().uri("/consumers").exchange().expectStatus().isOk();
 	}
 
 }

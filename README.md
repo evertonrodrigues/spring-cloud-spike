@@ -1,4 +1,4 @@
-#Spring Cloud Spike
+# Spring Cloud Spike
 
 This project aims to study about Spring Cloud Components
 
@@ -7,7 +7,7 @@ Goals:
     - One of them using 'Traditional' MVC approach for REST and the other using Reactive approach
 - Create the architeture diagram
 
-###Spring Cloud Gateway
+### Spring Cloud Gateway
 
 Goals:
 - Compare with Spring Cloud Zuul
